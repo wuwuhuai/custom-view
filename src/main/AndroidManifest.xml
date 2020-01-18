@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhuoren.cv">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".viewActivity.LoadingActivity" />
+        <activity android:name=".viewActivity.PictureProcessingActivity" />
+        <activity android:name=".viewActivity.BezierActivity" />
+        <activity android:name=".viewActivity.MeasureSpecActivity" />
+        <activity android:name=".viewActivity.MotionEventActivity" />
+        <activity android:name=".viewActivity.ClockActivity" />
+        <activity android:name=".viewActivity.CustemLayoutActivity" />
+        <activity android:name=".viewActivity.ItemLinearLayoutActivity" />
+        <activity android:name=".viewActivity.FlowActivity" />
+        <activity android:name=".viewActivity.SwipeActivity" />
+        <activity android:name=".viewActivity.ShakeActivity"></activity>
+        <activity android:name=".viewActivity.CircleActivity"></activity>
+    </application>
+
+</manifest>

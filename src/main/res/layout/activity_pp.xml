@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zhuoren.cv.viewActivity.PictureProcessingActivity">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zhuoren.cv.myView.nativeWidgets.PictureProcessingView
+        android:id="@+id/ppv"
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <Button
+            android:text="平移"
+            android:id="@+id/translate"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="缩放"
+            android:id="@+id/scale"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="旋转"
+            android:id="@+id/rotate"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="错切"
+            android:id="@+id/skew"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="重置"
+            android:id="@+id/reset"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

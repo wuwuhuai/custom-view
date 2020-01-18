@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhuoren.cv.myView.extensionalLayouts.ItemLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/ll_left"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:src="@drawable/minxiang"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="点击  or 滑动"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_delete"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:listSelector="#000000"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:background="#FF3B30"
+        android:gravity="center"
+        android:text="删除"/>
+</com.zhuoren.cv.myView.extensionalLayouts.ItemLinearLayout>
